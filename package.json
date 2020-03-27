@@ -4,7 +4,7 @@
   "description": "A simple http server that logs out http verb, path and headers for any request received. It always responds 200 YAY",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "eugen.serbanescu.88@gmail.com",
   "license": "MIT"
