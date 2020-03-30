@@ -1,8 +1,8 @@
 FROM node:12-alpine
+
+COPY index.js package.json  /app/
 WORKDIR /app
 
-COPY index.js  /app/
+EXPOSE 1337
 
-EXPOSE 1337:1337
-
-RUN node index.js
+CMD ["npm", "start"]
